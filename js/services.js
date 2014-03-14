@@ -1,7 +1,7 @@
 'use strict';
 
 /* Services */
-var serviceModule = angular.module('myApp.services', []);
+var serviceModule = angular.module('esGui.services', []);
 serviceModule.value('version', '1.0');
 
 serviceModule.factory('elastic', ['serverConfig','esFactory', 'configuration', function (serverConfig, esFactory, configuration) {

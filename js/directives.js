@@ -14,7 +14,7 @@ angular.module('esGui.directives', []).
                 restrict: 'E',
                 transclude: true,
                 scope: {heading: '@'},
-                controller: 'NavbarCtrl',
+                controller: 'NavbarController',
                 templateUrl: 'template/navbar/navbar.html',
                 replace: true,
                 link: function ($scope, $element, $attrs, navbarCtrl) {

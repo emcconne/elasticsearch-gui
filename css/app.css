@@ -5,6 +5,10 @@ body {
     padding-bottom: 40px;
 }
 
+[ng\:cloak], [ng-cloak], .ng-cloak {
+/*  display: none !important; */
+}
+
 @media (max-width: 980px) {
     /* Enable use of floated navbar text */
     .navbar-right {
